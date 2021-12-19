@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".Camping.CarCamping">
+
+    <TextView
+        android:id="@+id/Carcamping"
+        android:layout_width="372dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="66dp"
+        android:ellipsize="none"
+        android:focusable="auto"
+        android:fontFamily="@font/jockey_one"
+        android:layerType="none"
+        android:shadowColor="#F4E4E4"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="Car Camping"
+        android:textColor="#000000"
+        android:textSize="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="721dp"
+        android:layout_height="348dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/ccinfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Carcamping"
+        app:layout_constraintVertical_bias="0.191"
+        app:srcCompat="@drawable/carcamping" />
+
+    <TextView
+        android:id="@+id/ccinfo"
+        android:layout_width="402dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/jockey_one"
+        android:text="Caso não te agrade a ideia de acampar sem o teu amigo com rodas, damos te esta opção"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ccinfo"
+        app:srcCompat="@drawable/info" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

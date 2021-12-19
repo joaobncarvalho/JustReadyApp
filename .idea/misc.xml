@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_add_friend.xml" value="0.25" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_bus_stop.xml" value="0.2" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_canal.xml" value="0.25" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_car_camping.xml" value="0.2" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_cozinha_comunitaria.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_download_task.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_entrada.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_entradado_camping.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_festival_map.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_festival_map2.xml" value="0.25" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_friends_list.xml" value="0.176" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_lg_cool_spot.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_login_just_ready.xml" value="0.17714285714285713" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_moche_ring.xml" value="0.15625" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_palco_edp.xml" value="0.15625" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_palco_lgby_mega_hits.xml" value="0.176" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_palco_principal.xml" value="0.25" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_palco_super_bock.xml" value="0.152" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_patio_somersby.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_register_just_ready.xml" value="0.23088023088023088" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_restauracao.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_settings.xml" value="0.264" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_ticket_reward_system.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_user_profile.xml" value="0.264" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_user_profile1.xml" value="0.25" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/activity_zona_vip.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/fragment_festival_map.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/joaob/AndroidStudioProjects/JustReadyproject/app/src/main/res/layout/userprofiletextview.xml" value="0.24728260869565216" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

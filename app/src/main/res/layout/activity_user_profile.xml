@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile">
+
+    <TextView
+        android:id="@+id/usertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="104dp"
+        android:fontFamily="@font/jockey_one"
+        android:shadowColor="#F4E4E4"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="UserProfile"
+        android:textColor="#000000"
+
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/UserProfile"
+        style="@android:style/Widget.DeviceDefault.ExpandableListView"
+        android:layout_width="417dp"
+        android:layout_height="513dp"
+        android:animateLayoutChanges="false"
+        android:dividerHeight="30dp"
+        android:textFilterEnabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usertxt"
+        app:layout_constraintVertical_bias="1.0" />
+    "
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
