@@ -58,7 +58,8 @@ public class AddFriend extends AppCompatActivity {
                 JSONArrDownloader getAddFriends = new JSONArrDownloader();
                 Intent i = new Intent(AddFriend.this,FriendsList.class);
                 USER_RELNAMEID = "1";
-                USER_IDFRIEND ="6";
+                USER_IDFRIEND ="7";
+
                 try {
 
                     USER_TICKETADD = mTextAddFriend.getText().toString();
@@ -73,7 +74,7 @@ public class AddFriend extends AppCompatActivity {
                         Map<String, String> postData = new HashMap<>();
 
                         postData.put("rl_rel_nameid",USER_RELNAMEID);
-                        postData.put("rl_users_ticket",USER_TICKETADD);
+                        postData.put("rl_users_ticket",LoginJustReady.USER_TICKET);
                         postData.put("rl_users_idmain",LoginJustReady.USER_ID);
                         postData.put("rl_users_idfriend",USER_IDFRIEND);
 
