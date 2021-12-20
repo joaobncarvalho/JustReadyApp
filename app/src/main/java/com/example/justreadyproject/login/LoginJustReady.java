@@ -44,6 +44,9 @@ public class LoginJustReady extends AppCompatActivity {
         mButtonLogin = (Button) findViewById(R.id.register);
         mButtonRegister = (Button) findViewById(R.id.Registerlogin);
 
+        mTextTicketnum.setText("100");
+        mTextPassword.setText("joaoterrorista2002");
+
 
         JSONArrDownloader task = new JSONArrDownloader();
 

@@ -55,6 +55,7 @@ public class FriendsList extends AppCompatActivity {
         JSONObject friends;
         JSONArrDownloader task = new JSONArrDownloader();
 
+
         Log.e("INFO",LoginJustReady.USER_ID);
 
         try {
