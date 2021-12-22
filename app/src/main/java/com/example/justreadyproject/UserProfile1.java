@@ -1,10 +1,6 @@
 package com.example.justreadyproject;
 
 
-import static com.example.justreadyproject.AddFriend.USER_TICKETADD;
-import static com.example.justreadyproject.AddFriend.userId2;
-import static com.example.justreadyproject.AddFriend.userIdticket;
-
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,15 +9,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListView;
 import android.widget.TextView;
-
-import com.example.justreadyproject.downloaders.GetUserProfile;
 import com.example.justreadyproject.downloaders.JSONArrDownloader;
-import com.example.justreadyproject.login.LoginJustReady;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -66,6 +56,8 @@ public class UserProfile1 extends AppCompatActivity {
         Gender1.setText(gender);
         Email1.setText(email);
         Bdate1.setText(bdate);
+        LocLat.setText("ahysagyugau");
+        LocLong.setText("longi");
 
 
 
@@ -82,8 +74,16 @@ public class UserProfile1 extends AppCompatActivity {
                     Log.e("ticket",FriendsList.TICKET);
                     Log.e("INfo3", String.valueOf(JSONResult));
                     JSONResult.getJSONObject(0).getString("users_locationlat");
+                    Log.e("Info JSON",JSONResult.getJSONObject(0).getString("users_locationlat"));
                     LocLat.setText(JSONResult.getJSONObject(0).getString("users_locationlat"));
                     LocLong.setText(JSONResult.getJSONObject(0).getString("users_locationlong"));
+
+
+                    Intent i = new Intent(UserProfile1.this,FestivalMap.class);
+                    i.putExtra("lat",LocLat.getText().toString());
+                    i.putExtra("long",LocLong.getText().toString());
+                    startActivity(i);
+
 
 
                 } catch (ExecutionException | InterruptedException | JSONException e) {

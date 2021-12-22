@@ -65,7 +65,7 @@ public class FriendsList extends AppCompatActivity {
         JSONArrDownloader task = new JSONArrDownloader();
 
 
-        Log.e("INFO",LoginJustReady.USER_ID);
+
 
         try {
             JsonFriends = task.execute("https://justready.herokuapp.com/api/users/friends1/"+ LoginJustReady.USER_TICKET).get();
