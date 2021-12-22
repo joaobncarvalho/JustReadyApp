@@ -27,6 +27,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class Settings extends AppCompatActivity {
 
+
     Switch switchCompat;
     Switch switchCompat2;
     Switch switchCompat3;

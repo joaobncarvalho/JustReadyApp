@@ -40,6 +40,7 @@ public class AddFriend extends AppCompatActivity {
     JSONObject Friend ;
     public static int userId2;
     JSONArray Friendarr;
+    public static int userIdticket;
 
 
 
@@ -82,13 +83,14 @@ public class AddFriend extends AppCompatActivity {
 
 
 
+
         mButtonAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 JSONArrDownloader getAddFriends = new JSONArrDownloader();
                 Intent i = new Intent(AddFriend.this,FriendsList.class);
                 USER_RELNAMEID = "1";
-                USER_IDFRIEND ="31";
+
 
                 try {
 
@@ -106,6 +108,18 @@ public class AddFriend extends AppCompatActivity {
                             }
                         }
                     }
+                    if (Friendarr != null) {
+                        for (int k = 0; k < Friendarr.length(); k++) {
+                            try {
+                                obj = Friendarr.getJSONObject(k);
+                                userIdticket = Integer.parseInt(obj.getString("users_ticket"));
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+                        }
+                    }
+
+
 
                     Log.e("USER ID", String.valueOf(userId2));
                     Log.e("Info Ticket",USER_TICKETADD);

@@ -80,7 +80,7 @@ public class LoginJustReady extends AppCompatActivity {
 
 
         JSONObject User;
-        //vamos verificar se dentro do array existem as strings que o utilizador inseriu
+
         for (int i = 0; i < LoginCredentials.length(); i++) {
             User = LoginCredentials.getJSONObject(i);
 

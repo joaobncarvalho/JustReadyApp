@@ -28,6 +28,7 @@ public class UserProfile extends AppCompatActivity {
     JSONObject JsonUser;
     ArrayList<String> Users, Usersid;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,9 +58,11 @@ public class UserProfile extends AppCompatActivity {
                 String UsersEmail = JsonUser.getString("users_email");
                 String UsersTicket = JsonUser.getString("users_ticket");
                 String UsersBdate = JsonUser.getString("users_bdate");
+                String UserLat = JsonUser.getString("users_locationlat");
+                String UserLong = JsonUser.getString("users_locationlong");
 
                 Users.add("Profile: " + Usersname + "\nGender: " + UsersGender +
-                        "\nTicket Number: " + UsersTicket + "\nEmail: " + UsersEmail);
+                        "\nTicket Number: " + UsersTicket + "\nEmail: " + UsersEmail+"\nUser Lat: "+ UserLat+"\nUser Long: "+UserLong);
                 Usersid.add(JsonUser.getString("users_id"));
 
             } catch (JSONException e) {
